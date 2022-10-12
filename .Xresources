@@ -6,7 +6,7 @@ URxvt.scrollBar: false
 
 !! Colors !!
 ! special
-*.foreground:   #888888
+*.foreground:   #FFFFFF
 *.background:   #151515
 *.cursorColor:  #888888
 

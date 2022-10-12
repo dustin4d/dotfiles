@@ -2,7 +2,8 @@
 
 # ALIASES #
 alias ls='ls --color=auto'
-alias vps='xbps-install'
+alias vps='sudo xbps-install'
+alias fonts='fc-list : family | less'
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
