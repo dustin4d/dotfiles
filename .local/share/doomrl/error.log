@@ -1,0 +1,15 @@
+----------------------------------------------------------------------
+Timestamp   : 14-6-23 12:36:30
+Error level : FATAL EXCEPTION
+Message     : Fatal exception encountered
+
+An unhandled exception occurred at $00000000005E948A :
+ESoundException : RegisterMusic(mp3/d1inter.mp3): Unrecognized music format
+  $00000000005E948A
+  $0000000000483369
+  $000000000046B7D7
+  $000000000046C306
+  $00000000004286A8
+
+----------------------------------------------------------------------
+

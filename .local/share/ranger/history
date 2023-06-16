@@ -1,0 +1,10 @@
+find 
+open_with vim
+shell rm -r %s
+shell tar -zxpf %s
+mkdir .packages
+
+rm -rf
+open_with 
+shell rm -rf %s
+shell node %s

@@ -1,0 +1,37 @@
+12:36:29 : INFO    : --- Logging start : 14-6-23 12:36:29 ---
+12:36:29 : REPORT  : ---------------------- Compiler info -------------------------
+12:36:29 : REPORT  : This program was compiled at 18:15:21 on 2013/03/19 by epyon
+12:36:29 : REPORT  : Compiler version  : 2.6.0
+12:36:29 : REPORT  : Target OS         : Linux
+12:36:29 : REPORT  : Target CPU        : x86_64
+12:36:29 : REPORT  : ---------------------- OS runtime info -----------------------
+12:36:29 : REPORT  : Current dir       : /home/dustin/.local/share/doomrl
+12:36:29 : REPORT  : Local time        : 06-14-2023 12:36:29
+12:36:29 : INFO    : Root path set to - 
+12:36:29 : INFO    : <TDoom//0> Initialized.
+12:36:29 : INFO    : <TDoom//0> 0.9.9.7
+12:36:29 : INFO    : <TDownloadTask> DoomNet: downloading doom.chaosforge.net/info.xml to info.xml...
+12:36:30 : INFO    : HTTP/1.1 403 Forbidden
+12:36:30 : INFO    : <TDownloadTask> DoomNet: EHTTPError caught - GET doom.chaosforge.net /info.xml - 403 Forbidden
+12:36:30 : INFO    : <TDoomNetwork> Remote stable - 0.0.0 ()
+12:36:30 : INFO    : <TDoomNetwork> Remote beta   - 0.0.0 ()
+12:36:30 : INFO    : <TDoomNetwork> MOTD          - Could not connect to ChaosForge server!
+12:36:30 : INFO    : <TDoomModules> DoomModules loading...
+12:36:30 : INFO    : <TDoomModules> DoomModules loaded.
+12:36:30 : INFO    : <TSDLIODriver> Initializing SDL...
+12:36:30 : INFO    : <TSDLIODriver> Checking mode 800x600/32bit...
+12:36:30 : INFO    : <TSDLIODriver> Mode 800x600/32 set.
+12:36:30 : INFO    : <TSDLIODriver> SDL IO system ready.
+12:36:30 : INFO    : <TVDataFile> Loading "doomrl.wad"...
+12:36:30 : INFO    : <TVDataFile> Loaded "doomrl.wad" (84 files).
+12:36:30 : INFO    : <TGLConsoleRenderer> Requesting capabilities [ CON_CURSOR ]...
+12:36:30 : INFO    : <TGLConsoleRenderer> Initializing GL Console Renderer...
+12:36:30 : INFO    : <TDoomIO//0> Initialized.
+12:36:30 : INFO    : <TSDLSound//0> Initialized.
+12:36:30 : INFO    : <TDoomModules> DoomModules destroyed.
+12:36:30 : INFO    : <TSystems//0> Closed.
+12:36:30 : INFO    : <TDoom//0> Doom destroyed.
+12:36:30 : INFO    : <TDoomIO//0> Closed.
+12:36:30 : INFO    : <TDoom//0> Closed.
+12:36:30 : INFO    : <TSDLSound//0> Closed.
+12:36:30 : INFO    : --- Logging end   : 14-6-23 12:36:30 ---

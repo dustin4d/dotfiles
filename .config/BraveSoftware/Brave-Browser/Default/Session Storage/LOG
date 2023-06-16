@@ -1,0 +1,8 @@
+2023/06/16-11:12:31.782 3 Reusing MANIFEST /home/dustin/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2023/06/16-11:12:31.784 3 Recovering log #3
+2023/06/16-11:12:31.784 3 Level-0 table #3: started
+2023/06/16-11:12:31.789 3 Level-0 table #3: 17520 bytes OK
+2023/06/16-11:12:31.790 3 Recovering log #4
+2023/06/16-11:12:31.790 3 Reusing old log /home/dustin/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000004.log 
+2023/06/16-11:12:31.797 3 Delete type=2 #5
+2023/06/16-11:12:31.798 3 Delete type=0 #3

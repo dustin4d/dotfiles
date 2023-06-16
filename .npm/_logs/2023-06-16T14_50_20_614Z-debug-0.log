@@ -1,0 +1,214 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@8.19.2
+2 info using node@v20.3.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 8ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 6ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/home/dustin/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 23ms
+18 timing npm:load:configload Completed in 24ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm info vtop
+22 verbose argv "info" "--json" "vtop"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing config:load:flatten Completed in 4ms
+25 timing npm:load:display Completed in 5ms
+26 verbose logfile logs-max:10 dir:/home/dustin/.npm/_logs
+27 verbose logfile /home/dustin/.npm/_logs/2023-06-16T14_50_20_614Z-debug-0.log
+28 timing npm:load:logFile Completed in 5ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 1ms
+31 timing npm:load Completed in 39ms
+32 silly logfile start cleaning logs, removing 1 files
+33 silly logfile done cleaning log files
+34 http fetch GET 200 https://registry.npmjs.org/vtop 542ms (cache revalidated)
+35 silly view {
+35 silly view   '0.6.1': {
+35 silly view     _id: 'vtop@0.6.1',
+35 silly view     _rev: '140-78ce0df98c15de6d4d16f622b7c8243f',
+35 silly view     name: 'vtop',
+35 silly view     description: 'Wow such top. So stats',
+35 silly view     'dist-tags': { latest: '0.6.1' },
+35 silly view     versions: [
+35 silly view       '0.0.3',  '0.1.0',  '0.1.1',  '0.1.2',
+35 silly view       '0.1.3',  '0.1.4',  '0.1.6',  '0.1.7',
+35 silly view       '0.1.8',  '0.2.0',  '0.2.1',  '0.2.2',
+35 silly view       '0.2.3',  '0.2.4',  '0.2.5',  '0.2.6',
+35 silly view       '0.2.7',  '0.2.8',  '0.3.1',  '0.3.2',
+35 silly view       '0.3.3',  '0.4.0',  '0.4.1',  '0.4.2',
+35 silly view       '0.4.3',  '0.4.4',  '0.4.5',  '0.4.6',
+35 silly view       '0.4.7',  '0.4.8',  '0.4.9',  '0.4.10',
+35 silly view       '0.4.11', '0.4.12', '0.4.13', '0.4.14',
+35 silly view       '0.4.15', '0.4.16', '0.4.17', '0.5.0',
+35 silly view       '0.5.1',  '0.5.2',  '0.5.3',  '0.5.4',
+35 silly view       '0.5.5',  '0.5.6',  '0.5.7',  '0.6.0',
+35 silly view       '0.6.1'
+35 silly view     ],
+35 silly view     maintainers: [ [Object] ],
+35 silly view     time: {
+35 silly view       modified: '2022-07-25T16:11:09.720Z',
+35 silly view       created: '2014-06-08T16:51:32.722Z',
+35 silly view       '0.0.3': '2014-06-08T16:51:32.722Z',
+35 silly view       '0.1.0': '2014-06-08T16:53:36.200Z',
+35 silly view       '0.1.1': '2014-06-08T17:00:22.382Z',
+35 silly view       '0.1.2': '2014-06-08T21:38:45.269Z',
+35 silly view       '0.1.3': '2014-06-08T23:04:42.458Z',
+35 silly view       '0.1.4': '2014-06-08T23:08:41.868Z',
+35 silly view       '0.1.6': '2014-06-09T11:17:23.879Z',
+35 silly view       '0.1.7': '2014-06-10T11:32:00.382Z',
+35 silly view       '0.1.8': '2014-06-10T15:15:50.480Z',
+35 silly view       '0.2.0': '2014-06-11T13:06:42.229Z',
+35 silly view       '0.2.1': '2014-06-11T13:07:50.812Z',
+35 silly view       '0.2.2': '2014-06-11T14:03:21.174Z',
+35 silly view       '0.2.3': '2014-06-11T14:53:49.046Z',
+35 silly view       '0.2.4': '2014-06-11T15:44:14.520Z',
+35 silly view       '0.2.5': '2014-06-11T21:31:45.951Z',
+35 silly view       '0.2.6': '2014-06-11T22:23:18.527Z',
+35 silly view       '0.2.7': '2014-06-12T11:13:37.992Z',
+35 silly view       '0.2.8': '2014-06-12T14:50:25.704Z',
+35 silly view       '0.3.1': '2014-06-13T09:20:31.429Z',
+35 silly view       '0.3.2': '2014-06-13T09:32:11.737Z',
+35 silly view       '0.3.3': '2014-06-13T09:42:12.251Z',
+35 silly view       '0.4.0': '2014-06-13T10:18:54.429Z',
+35 silly view       '0.4.1': '2014-06-13T11:55:35.447Z',
+35 silly view       '0.4.2': '2014-06-13T12:09:54.055Z',
+35 silly view       '0.4.3': '2014-06-13T12:12:17.890Z',
+35 silly view       '0.4.4': '2014-06-13T14:18:36.151Z',
+35 silly view       '0.4.5': '2014-06-13T21:00:42.960Z',
+35 silly view       '0.4.6': '2014-06-13T23:01:45.576Z',
+35 silly view       '0.4.7': '2014-06-13T23:11:13.013Z',
+35 silly view       '0.4.8': '2014-06-13T23:26:46.828Z',
+35 silly view       '0.4.9': '2014-06-14T00:08:54.420Z',
+35 silly view       '0.4.10': '2014-06-14T11:12:16.839Z',
+35 silly view       '0.4.11': '2014-06-15T21:43:51.690Z',
+35 silly view       '0.4.12': '2014-06-16T11:41:52.565Z',
+35 silly view       '0.4.13': '2014-06-17T21:04:29.159Z',
+35 silly view       '0.4.14': '2014-06-24T15:15:38.000Z',
+35 silly view       '0.4.15': '2014-06-26T14:14:59.869Z',
+35 silly view       '0.4.16': '2014-06-26T22:04:14.953Z',
+35 silly view       '0.4.17': '2014-06-27T00:44:05.550Z',
+35 silly view       '0.5.0': '2014-06-27T21:31:53.430Z',
+35 silly view       '0.5.1': '2014-06-27T22:19:33.308Z',
+35 silly view       '0.5.2': '2014-06-27T22:24:45.174Z',
+35 silly view       '0.5.3': '2014-07-18T09:56:24.689Z',
+35 silly view       '0.5.4': '2014-07-18T11:03:20.143Z',
+35 silly view       '0.5.5': '2014-07-22T14:44:16.980Z',
+35 silly view       '0.5.6': '2016-10-16T19:29:19.222Z',
+35 silly view       '0.5.7': '2016-10-16T19:50:10.869Z',
+35 silly view       '0.6.0': '2018-06-23T16:51:40.920Z',
+35 silly view       '0.6.1': '2018-09-06T09:53:27.992Z'
+35 silly view     },
+35 silly view     homepage: 'http://parall.ax/vtop',
+35 silly view     repository: { type: 'git', url: 'git+ssh://git@github.com/MrRio/vtop.git' },
+35 silly view     author: { name: 'James Hall', email: 'james@parall.ax' },
+35 silly view     bugs: { url: 'https://github.com/MrRio/vtop/issues' },
+35 silly view     license: 'MIT',
+35 silly view     readmeFilename: 'README.md',
+35 silly view     users: {
+35 silly view       kikobeats: true,
+35 silly view       davidchase: true,
+35 silly view       'dr-benton': true,
+35 silly view       jklassen: true,
+35 silly view       ericwbailey: true,
+35 silly view       davidchubbs: true,
+35 silly view       efreak: true,
+35 silly view       nelix: true,
+35 silly view       'dr.dimitru': true,
+35 silly view       bplabombarda: true,
+35 silly view       mrjameshall: true,
+35 silly view       diegorbaquero: true,
+35 silly view       mkstix6: true,
+35 silly view       rocket0191: true,
+35 silly view       itonyyo: true,
+35 silly view       xyyjk: true,
+35 silly view       cbetancourt: true,
+35 silly view       panlw: true,
+35 silly view       prasanthv: true,
+35 silly view       frederik_bosch: true,
+35 silly view       'jim-lim': true,
+35 silly view       faraoman: true,
+35 silly view       cschmitz81: true,
+35 silly view       faeliaso: true,
+35 silly view       fabrianibrahim: true,
+35 silly view       edm00se: true,
+35 silly view       iuykza: true,
+35 silly view       'thomas.miele': true,
+35 silly view       jpsirois: true,
+35 silly view       yuch4n: true,
+35 silly view       'tg-z': true,
+35 silly view       codefoster: true
+35 silly view     },
+35 silly view     _cached: true,
+35 silly view     _contentLength: 68861,
+35 silly view     version: '0.6.1',
+35 silly view     main: 'app.js',
+35 silly view     preferGlobal: true,
+35 silly view     engines: { node: '>= 4' },
+35 silly view     scripts: { test: 'make test', precommit: 'standard' },
+35 silly view     standard: { ignore: [Array] },
+35 silly view     bin: { vtop: './bin/vtop.js' },
+35 silly view     dependencies: {
+35 silly view       blessed: '0.1.81',
+35 silly view       commander: '2.11.0',
+35 silly view       drawille: '1.1.0',
+35 silly view       glob: '7.1.2',
+35 silly view       husky: '^0.14.3',
+35 silly view       'os-utils': '0.0.14',
+35 silly view       read: '1.0.7',
+35 silly view       sudo: '1.0.3',
+35 silly view       'use-strict': '^1.0.1'
+35 silly view     },
+35 silly view     gitHead: 'e39e183e232e2b9eadae2198948d1f87aa277921',
+35 silly view     _npmVersion: '5.3.0',
+35 silly view     _nodeVersion: '8.2.1',
+35 silly view     _npmUser: { name: 'mrjameshall', email: 'james@parall.ax' },
+35 silly view     dist: {
+35 silly view       integrity: 'sha512-Iww0fvGKwkQWalUzfA7NzoYEyTBw5w/G/L3lJYoOwdhp1X0ra8p8Y0HzZiNtOMWSGLV/6nWvMHtdo8FPS5dRhw==',
+35 silly view       shasum: 'ee1098505f3300e762a7e663455c6fa68be07fbf',
+35 silly view       tarball: 'https://registry.npmjs.org/vtop/-/vtop-0.6.1.tgz',
+35 silly view       fileCount: 36,
+35 silly view       unpackedSize: 3019517,
+35 silly view       'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\n' +
+35 silly view         'Version: OpenPGP.js v3.0.13\r\n' +
+35 silly view         'Comment: https://openpgpjs.org\r\n' +
+35 silly view         '\r\n' +
+35 silly view         'wsFcBAEBCAAQBQJh3AEvCRA9TVsSAnZWagAAj2sP+waZ2O6ktN0dDAiCHoHG\n' +
+35 silly view         'queXsycj0s20MlHwpiWUB2mfHCfWx0+vcEIqxydSL/MVcKmhUcXVliBF7Hjv\n' +
+35 silly view         'a3ol3Pbpucq1sgLRenrSjKYL3tCySJw7y17efduGmqb5E2q5R0umFnKGrsTe\n' +
+35 silly view         'w8WpOs1CnB488MxIwfVeX/4x49yj0lJrb8TevdzbkVtphZ1mlndwM9lqtXtZ\n' +
+35 silly view         'DhxDgJd9V3GG39uD/CKKU/dUup2I7H+guogU3d4yVExWOFS0b5k05z0BTNYt\n' +
+35 silly view         '8rlDo/CpqRJdGVfHvSivchkgRhZfXFBc7KpGnxq23fhdLoHBBZcNCr6PXyrM\n' +
+35 silly view         '9VEZvkpXKYZice16WuzTGsldwsaWnzD7YRQAUeCta2E/z1qXRHESCAfz0gWO\n' +
+35 silly view         'FNLg0ijg/snWjqxRkMHV/i3GwwhzjirhDlVlhFrkw1Rt4p8bRypSLcNFsJc/\n' +
+35 silly view         'GR6PdpYJ6MMTvocFsqT5+1q9Lfw8rFZmIVwK2mx1huB2pYl2xSx9Xt28kqXj\n' +
+35 silly view         'r/3SJc57e1XfUqpnLFaxMTH4k5IItWTSuZ1I+KeZv7DVzRM6I35NuTpD1cwQ\n' +
+35 silly view         'h3x2KyfiBqgcME510+ReOp1A+VcI7yzS7xv0QtHqRHVKuD8BCyXdHcMJJJ4F\n' +
+35 silly view         'dBlpVPBspEfXVtwWjxcwCIKnmwbxdpvsoUP5X7AasUXEh8bWmJM52pWoNOdy\n' +
+35 silly view         'iiHn\r\n' +
+35 silly view         '=sMnf\r\n' +
+35 silly view         '-----END PGP SIGNATURE-----\r\n',
+35 silly view       signatures: [Array]
+35 silly view     },
+35 silly view     directories: {},
+35 silly view     _npmOperationalInternal: {
+35 silly view       host: 's3://npm-registry-packages',
+35 silly view       tmp: 'tmp/vtop_0.6.1_1536227607705_0.2752561057279861'
+35 silly view     },
+35 silly view     _hasShrinkwrap: false
+35 silly view   }
+35 silly view }
+36 timing command:info Completed in 562ms
+37 verbose exit 0
+38 timing npm Completed in 618ms
+39 info ok

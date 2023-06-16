@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/dustin/.config/i3'
+let g:netrw_dirhist_3='/home/dustin/Documents/code/js/webpack-demo/dist'
+let g:netrw_dirhist_2='/home/dustin/Documents/code/js/webpack-demo'
+let g:netrw_dirhist_1='/home/dustin/Documents/code/rust'
