@@ -1,0 +1,26 @@
+# visiblue config from terminal.sexy
+
+[colors.primary]
+background = "0x000000"
+foreground = "0x666699"
+
+[colors.normal]
+black   = "0x333366"
+red     = "0x6666cc"
+green   = "0x0099cc"
+yellow  = "0x3366cc"
+blue    = "0x006699"
+magenta = "0x0066ff"
+cyan    = "0x669999"
+white   = "0x99cccc"
+
+[colors.bright]
+black   = "0x333399"
+red     = "0x9999ff"
+green   = "0x00ccff"
+yellow  = "0x6699ff"
+blue    = "0x0099cc"
+magenta = "0x0099ff"
+cyan    = "0x66cccc"
+white   = "0xccffff"
+
