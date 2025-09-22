@@ -5,9 +5,14 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Load external bash theme, includes PS1
+if [ -f ~/.config/bash/visiblue.sh ]; then
+  source ~/.config/bash/visiblue.sh
+fi
+
+# aliases
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
 
 # Change GOPATH
 export GOPATH="$HOME/code/go"
