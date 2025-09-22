@@ -26,5 +26,7 @@ BWHITE="\[\e[38;2;204;255;255m\]"  # 0xccffff
 
 RESET="\[\e[0m\]"
 
-# Prompt
-export PS1="${CYAN}\u@\h ${MAGENTA}\w ${WHITE}\\$ ${RESET}"
+PROMPT_COMMAND='
+  PS1_CMD1=$(git branch --show-current 2>/dev/null)
+  PS1="${COLOR_RED}\u${COLOR_RESET} @ ${COLOR_BLUE}\w${COLOR_RESET} (${COLOR_GREEN}${PS1_CMD1}${COLOR_RESET})\n\$ "
+'
