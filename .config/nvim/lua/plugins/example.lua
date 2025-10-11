@@ -37,6 +37,17 @@ return {
     ---@param opts cmp.ConfigSchema
     opts = function(_, opts)
       table.insert(opts.sources, { name = "emoji" })
+      -- Disable automatic autocomplete
+      opts.completion = opts.completion or {}
+      opts.completion.autocomplete = false
+
+      -- Disable documentation window
+      opts.window = opts.window or {}
+      opts.window.documentation = {
+        border = "none",
+        winhighlight = "Normal:Pmenu,FloatBorder:Pmenu,Search:None",
+        scrollbar = false,
+      }
     end,
   },
 

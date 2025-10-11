@@ -167,5 +167,5 @@ live_config_reload = true
 working_directory = "None"
 
 # color theme import
-import = ["./dawn.toml"]
+import = ["./kookies.toml"]
 

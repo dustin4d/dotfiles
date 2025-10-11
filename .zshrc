@@ -15,6 +15,11 @@ if command -v lsd >/dev/null 2>&1; then
   alias lt='lsd --tree'
 fi
 
+# Use python as python3 
+if command -v python3 >/dev/null 2>&1; then
+  alias py='python3'
+fi
+
 # Golang stuff
 export GOPATH="$HOME/code/go"
 export PATH="$PATH:$HOME/code/go/bin"
