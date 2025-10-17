@@ -1,0 +1,9 @@
+{{ define "main" }}
+    {{ .Content }}
+    <p>Here's a hello from a template: {{ "Hello!" }}</p>
+    <p>You can even access the frontmatter.</p>
+    <p>Here's the page's title: {{ .Params.title }}</p>
+    {{ $favorite_drink := "coffee" }}
+    <p>{{ $favorite_drink }} is my favorite drink </p>
+ 
+{{ end }}
