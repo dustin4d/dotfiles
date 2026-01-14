@@ -6,15 +6,14 @@
 
 # Empty values are used to reset config keys to default.
 
-# resize-overlay-duration = 4s 200ms
-theme = system
-
 shell-integration-features = no-cursor
 cursor-style = underline
 
 background-opacity = 1
 background-blur = true
 
-theme = Kanagawa Dragon
+theme = Cutie Pro
+font-size = 13
+font-family = "CaskaydiaCove NF"
 
-font-size = 15
+# TODO: Set ghosty to be like 144x48
