@@ -7,13 +7,23 @@
 # Empty values are used to reset config keys to default.
 
 shell-integration-features = no-cursor
-cursor-style = underline
+cursor-style = block
 
 background-opacity = 1
 background-blur = true
 
-theme = Cutie Pro
+# theme = Harper
+# theme = Adventure Time
+# theme = Challenger Deep
+theme = Duskfox
+
+#
+# Font Settings
+#
 font-size = 13
-font-family = "CaskaydiaCove NF"
+#font-family = "CaskaydiaCove NF"
+# font-family = "RecMonoCasual Nerd Font Mono"
+font-family = JetBrainsMono Nerd Font
+#font-family = IoskeleyMono Nerd Font
 
 # TODO: Set ghosty to be like 144x48

@@ -15,12 +15,7 @@ fi
 # aliases
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-
-# Change GOPATH
-export GOPATH="$HOME/code/go"
-
-# Add go packages to $PATH
-export PATH="$PATH:$HOME/code/go/bin"
+alias nv='nvim'
 
 # Use lsd if available; fall back to ls
 if command -v lsd >/dev/null 2>&1; then
@@ -32,3 +27,10 @@ fi
 
 # Generated for envman. Do not edit.
 [ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
+
+# Change GOPATH
+export GOPATH="$HOME/code/go"
+
+# Add go packages to $PATH
+export PATH="$PATH:$HOME/code/go/bin"
+
