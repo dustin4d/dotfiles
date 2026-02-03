@@ -1,7 +1,7 @@
 # Visiblue
 #
 # Primary
-BG_COLOR="\[\e[48;2;0;0;0m\]"       # 0x000000
+BG_COLOR="\[\e[48;2;0;102;153m\]"       # 0x000000
 FG_COLOR="\[\e[38;2;102;102;153m\]" # 0x666699
 
 # Normal colors
@@ -28,5 +28,5 @@ RESET="\[\e[0m\]"
 
 PROMPT_COMMAND='
   PS1_CMD1=$(git branch --show-current 2>/dev/null)
-  PS1="${COLOR_RED}\u${COLOR_RESET} @ ${COLOR_BLUE}\w${COLOR_RESET} (${COLOR_GREEN}${PS1_CMD1}${COLOR_RESET})\n\$ "
+  PS1="${BG_COLOR} \u@\H \w    ${RESET}\n\$ "
 '
