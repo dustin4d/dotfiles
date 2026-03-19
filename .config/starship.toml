@@ -22,7 +22,7 @@ $time\
 [directory]
 style = "fg:#e3e5e5 bg:#769ff0"
 format = "[ $path ]($style)"
-truncation_length = 3
+truncation_length = 0
 truncation_symbol = "…/"
 
 [directory.substitutions]
@@ -75,6 +75,7 @@ format = '[ $user ]($style)'
 
 [hostname]
 ssh_only = false       # only show on remote/SSH
+ssh_symbol = " "
 format = "[$ssh_symbol$hostname]($style)"
 style = "bg:#a3aed2 fg:#090c0c"
 
