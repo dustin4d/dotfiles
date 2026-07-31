@@ -33,6 +33,15 @@ if command -v lsd >/dev/null 2>&1; then
   alias lt='lsd --tree'
 fi
 
+# py for python
+if command -v python >/dev/null 2>&1; then
+  alias py='python'
+fi
+# Easier Ruby alias... b followed by y is a weird key combo.
+if command -v ruby >/dev/null 2>&1; then
+  alias ru='ruby'
+fi
+
 # Change GOPATH
 export GOPATH="$HOME/code/go"
 
